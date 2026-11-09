@@ -1,0 +1,3 @@
+Enter previous and current readings: scanf assignments=2
+Accepted previous=1200 current=1530
+Example formatted bill: Rs 162.50

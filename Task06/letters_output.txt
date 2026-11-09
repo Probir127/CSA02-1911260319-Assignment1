@@ -1,0 +1,2 @@
+Enter previous and current readings: scanf assignments=0
+Invalid numeric input

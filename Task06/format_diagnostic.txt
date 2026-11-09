@@ -1,0 +1,5 @@
+Task06/wrong_format.c:5:19: error: format specifies type 'int' but the argument has type 'long' [-Werror,-Wformat]
+    5 |     printf("%d\n",amount);
+      |             ~~    ^~~~~~
+      |             %ld
+1 error generated.

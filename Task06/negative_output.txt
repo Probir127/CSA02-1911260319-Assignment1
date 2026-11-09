@@ -1,0 +1,2 @@
+Enter previous and current readings: scanf assignments=2
+Reading outside 0..65535
