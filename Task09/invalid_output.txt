@@ -1,0 +1,8 @@
+REJECT line 1: invalid fields/range/category
+REJECT line 2: invalid fields/range/category
+REJECT line 3: inconsistent or unconfirmed rollover
+0009 units=1 energy=Rs 0.00 fixed=Rs 50.00 total=Rs 50.00
+0010 units=256 energy=Rs 477.00 fixed=Rs 50.00 total=Rs 527.00
+REJECT line 6: invalid fields/range/category
+REJECT line 7: inconsistent or unconfirmed rollover
+Accepted=2 rejected=5 total=Rs 577.00

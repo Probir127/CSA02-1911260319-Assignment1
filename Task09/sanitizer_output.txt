@@ -1,0 +1,12 @@
+units=0 expected=5000 actual=5000 PASS
+units=99 expected=5000 actual=5000 PASS
+units=100 expected=5000 actual=5000 PASS
+units=101 expected=5225 actual=5225 PASS
+units=150 expected=16250 actual=16250 PASS
+units=199 expected=27275 actual=27275 PASS
+units=200 expected=27500 actual=27500 PASS
+units=201 expected=27950 actual=27950 PASS
+units=350 expected=95000 actual=95000 PASS
+units=65535 expected=29428250 actual=29428250 PASS
+65,536 array-vs-fixed comparisons; rollover, parser, sum and overflow guards: PASS
+Five hand-calculated bills total: 148750 paise = Rs 1487.50

@@ -1,0 +1,3 @@
+REJECT line 1: line too long
+0003 units=150 energy=Rs 112.50 fixed=Rs 50.00 total=Rs 162.50
+Accepted=1 rejected=1 total=Rs 162.50
