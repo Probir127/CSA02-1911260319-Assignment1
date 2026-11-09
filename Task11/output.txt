@@ -1,0 +1,4 @@
+Maximum monthly bill=29428250 paise
+District bound=23542600000000 paise
+long long maximum=9223372036854775807; bound fits=yes
+Use checked integer paise, a confirmed rollover flag, and one tariff definition.
