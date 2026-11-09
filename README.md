@@ -9,17 +9,17 @@
 
 ## Compiler
 
-Executed on macOS arm64 using `gcc`, which resolves to **Apple Clang 21.0.0** on this system. `compiler.txt` records the version; this is not a claim that the local compiler is GNU GCC. C source uses C17 and standard headers. Python 3 is only an optional automation harness; the assignment programs are C.
+All assignment programs are written in **C17**, using `.c` source files and `.h` headers. Executed on macOS arm64 using `gcc`, which resolves to **Apple Clang 21.0.0** on this system. `compiler.txt` records the version. The optional Bash script below compiles and runs the C programs.
 
 ## Build and run everything
 
 From the repository root:
 
 ```sh
-python3 tools/run_all.py
+bash tools/run_all.sh
 ```
 
-This compiles/runs every task, both completed-code exercises, revision cases, intentionally failing examples and sanitizer tests. It writes executables/objects to `build/` and refreshes the text evidence beside each task. An expected rejection or compiler failure counts as a passing negative test. The original valid programs use:
+This compiles/runs every task, both completed-code exercises, revision cases, intentionally failing examples and sanitizer tests. It writes executables/objects to `build/` and fresh output to `build/checks/`. The task folders retain the recorded results used in the report. An expected rejection or compiler failure counts as a passing negative test. The original valid programs use:
 
 ```sh
 gcc -std=c17 -Wall -Wextra -Wpedantic -O2 SOURCE.c -o build/PROGRAM
