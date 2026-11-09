@@ -1,0 +1,775 @@
+[
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task01/data_demo.c",
+      "common/billing.c",
+      "-o",
+      "build/task1"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task1"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task02/types.c",
+      "-o",
+      "build/task2"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task2"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task03/complete_code.c",
+      "-o",
+      "build/task3"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task3"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task04/macros.c",
+      "-o",
+      "build/task4"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task4"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task05/header_demo.c",
+      "common/billing.c",
+      "-o",
+      "build/task5"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task5"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task07/conversions.c",
+      "-o",
+      "build/task7"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task7"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task11/recommendation.c",
+      "common/billing.c",
+      "-o",
+      "build/task11"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task11"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task02/complete_code.c",
+      "-o",
+      "build/task2_complete"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task2_complete"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task03/revised_rate.c",
+      "-o",
+      "build/task3_revised"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task3_revised"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-E",
+      "-P",
+      "Task04/macros.c"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-DDEBUG",
+      "Task05/header_demo.c",
+      "common/billing.c",
+      "-o",
+      "build/task5_debug"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task5_debug"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task06/scanf_demo.c",
+      "-o",
+      "build/task6"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task6"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task6"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/task6"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-Werror=format",
+      "-c",
+      "Task06/wrong_format.c",
+      "-o",
+      "build/wrong.o"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1
+  },
+  {
+    "command": [
+      "gcc",
+      "-E",
+      "Task08/stages.c",
+      "-o",
+      "Task08/stages.i"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-S",
+      "Task08/stages.c",
+      "-o",
+      "Task08/stages.s"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "Task08/stages.c",
+      "-o",
+      "build/stages.o"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "build/stages.o",
+      "-o",
+      "build/stages"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/stages"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task08/compile_error.c",
+      "-o",
+      "build/compile_error"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task08/link_error.c",
+      "-o",
+      "build/link_error"
+    ],
+    "exit_code": 1,
+    "expected_exit": 1
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task08/runtime_error.c",
+      "-o",
+      "build/runtime"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/runtime"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task09/main.c",
+      "Task09/input.c",
+      "common/billing.c",
+      "-o",
+      "build/billing"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/billing"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/billing"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task09/tests.c",
+      "Task09/input.c",
+      "common/billing.c",
+      "-o",
+      "build/tests"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/tests"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-O1",
+      "-fsanitize=address,undefined",
+      "-fno-omit-frame-pointer",
+      "Task09/tests.c",
+      "Task09/input.c",
+      "common/billing.c",
+      "-o",
+      "build/tests_sanitized"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/tests_sanitized"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task07/precision.c",
+      "common/billing.c",
+      "-o",
+      "build/task07_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task07_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task07_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task07_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task10/totals.c",
+      "common/billing.c",
+      "-o",
+      "build/task10_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task10_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task10_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/task10_precision"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-c",
+      "Task09/main.c",
+      "-o",
+      "build/main.o"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-c",
+      "Task09/input.c",
+      "-o",
+      "build/input.o"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-c",
+      "common/billing.c",
+      "-o",
+      "build/billing.o"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "build/main.o",
+      "build/input.o",
+      "build/billing.o",
+      "-o",
+      "build/billing_split"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/billing_split"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task12/main.c",
+      "Task12/smart.c",
+      "-o",
+      "build/smart"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/revised_tariff.cfg"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/duplicate_key.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/bad_percent.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/negative_rate.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "build/smart",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "Task12/tests.c",
+      "Task12/smart.c",
+      "-o",
+      "build/smart_tests"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/smart_tests",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "gcc",
+      "-std=c17",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-O2",
+      "-O1",
+      "-fsanitize=address,undefined",
+      "-fno-omit-frame-pointer",
+      "Task12/tests.c",
+      "Task12/smart.c",
+      "-o",
+      "build/smart_tests_sanitized"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/smart_tests_sanitized",
+      "Task12/tariff.cfg"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  },
+  {
+    "command": [
+      "build/billing"
+    ],
+    "exit_code": 2,
+    "expected_exit": 2
+  },
+  {
+    "command": [
+      "gcc",
+      "--version"
+    ],
+    "exit_code": 0,
+    "expected_exit": 0
+  }
+]
