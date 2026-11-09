@@ -1,0 +1,5 @@
+  0 units -> Rs 50.00
+100 units -> Rs 50.00
+150 units -> Rs 162.50
+200 units -> Rs 275.00
+350 units -> Rs 950.00
