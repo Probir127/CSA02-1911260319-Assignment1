@@ -1,0 +1,8 @@
+350 kWh mixed/slab-crossing test: energy=108000 total=113000 paise PASS
+slot=71 (start 17:45) energy=450 paise PASS
+slot=72 (start 18:00) energy=540 paise PASS
+slot=87 (start 21:45) energy=540 paise PASS
+slot=88 (start 22:00) energy=450 paise PASS
+Two 0.45-paisa intervals -> 1 paisa after one final rounding: PASS
+Overflow and over-limit rejection leave account unchanged: PASS
+Annual interval traversal=35040 count; total=35040000 Wh PASS

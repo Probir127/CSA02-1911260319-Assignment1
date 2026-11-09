@@ -1,0 +1,3 @@
+Intervals=4 used_Wh=350000
+Energy=108600 paise; fixed=5000 paise; total=Rs 1136.00
+One supplied billing-period sequence; coverage must be checked before issuing a bill.
