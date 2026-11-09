@@ -1,0 +1,6 @@
+0001 units=0 energy=Rs 0.00 fixed=Rs 50.00 total=Rs 50.00
+0002 units=100 energy=Rs 0.00 fixed=Rs 50.00 total=Rs 50.00
+0003 units=150 energy=Rs 112.50 fixed=Rs 50.00 total=Rs 162.50
+0004 units=200 energy=Rs 225.00 fixed=Rs 50.00 total=Rs 275.00
+0005 units=350 energy=Rs 900.00 fixed=Rs 50.00 total=Rs 950.00
+Accepted=5 rejected=0 total=Rs 1487.50

@@ -1,0 +1,4 @@
+Task08/compile_error.c:2:25: error: use of undeclared identifier 'missing_variable'
+    2 | int main(void) { return missing_variable; }
+      |                         ^~~~~~~~~~~~~~~~
+1 error generated.
