@@ -1,0 +1,16 @@
+CHAR_BIT=8
+char: 1 bytes, -128..127
+signed char: 1 bytes, -128..127
+unsigned char: 1 bytes, 0..255
+short: 2 bytes, -32768..32767
+unsigned short: 2 bytes, 0..65535
+int: 4 bytes, -2147483648..2147483647
+unsigned int: 4 bytes, 0..4294967295
+long: 8 bytes, -9223372036854775808..9223372036854775807
+unsigned long: 8 bytes, 0..18446744073709551615
+long long: 8 bytes, -9223372036854775808..9223372036854775807
+unsigned long long: 8 bytes, 0..18446744073709551615
+float: 4 bytes, normal min=1.17549435e-38 max=3.40282347e+38 digits=6 mantissa=24
+double: 8 bytes, normal min=2.2250738585072014e-308 max=1.7976931348623157e+308 digits=15 mantissa=53
+long double: 8 bytes, max=1.79769313e+308 mantissa=53
+16-bit register after 65535 + 1: 0
