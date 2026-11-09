@@ -1,0 +1,5 @@
+Household=00001234 category=D previous=1200 current=1530 units=330
+Energy: Rs 810.00
+Fixed: Rs 50.00
+Total: Rs 860.00
+Nonnegative and sum invariant: PASS
