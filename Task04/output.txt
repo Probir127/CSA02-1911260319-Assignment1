@@ -1,0 +1,4 @@
+BAD_SQUARE(a+1)=7; SQUARE(a+1)=16
+MAX(i++,j)=6; i after=7
+max_int(i++,j)=5; i after=6
+square_int(a+1)=16; 50 rupees=5000 paise
