@@ -1,0 +1,2 @@
+Header guards work; total=Rs 162.50
+DEBUG units=150 energy=11250 fixed=5000 total=16250
