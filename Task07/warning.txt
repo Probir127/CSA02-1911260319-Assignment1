@@ -1,0 +1,4 @@
+outputs/CSA02_Assignment1_Solved/Task07/conversions.c:8:65: warning: comparison of integers of different signs: 'int' and 'unsigned int' [-Wsign-compare]
+    8 |     printf("-1 < 1U = %d (after unsigned conversion)\n",negative<one);
+      |                                                         ~~~~~~~~^~~~
+1 warning generated.

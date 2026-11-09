@@ -1,0 +1,7 @@
+150/100=1; (double)150/100=1.50
+-1 < 1U = 0 (after unsigned conversion)
+Signed-domain comparison corrected = 1
+unsigned char 255 + 1 = 256 (integer promotion)
+(int)(INT_MAX+1L)=-2147483648 (implementation-defined in C17)
+float 16777216 + 1 = 16777216
+llround(1.125*100)=113 paise (half away from zero)
